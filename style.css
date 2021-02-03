@@ -1,35 +1,39 @@
 body {
+    background-color: #ffc2ec;
     text-align: center;
 }
 
-#chatbot {
-    height: 800px;
-    width: 100%;
-    background-color: aliceblue;
+div {
+    margin-top: 15px;
 }
 
-#apps {
-    height: 800px;
-    width: 100%;
-    background-color: aliceblue;
+.image-section {
+    display: flex;
+    justify-content: center;
 }
 
-#games {
-    height: 800px;
-    width: 100%;
-    background-color: aliceblue;
+.section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
 }
 
-h1 {
-    font-size: 50px;
-    font-family: sans-serif;
+#n {
+    height: 550px;
+    width: 550px;
 }
 
-img {
-    transition: transform .2s;
-
+#a {
+    height: 550px;
+    width: 550px;
 }
 
-img:hover {
-    transform: scale(0.9);
+#t {
+    height: 550px;
+    width: 550px;
+}
+
+#u {
+    height: 550px;
+    width: 550px;
 }
