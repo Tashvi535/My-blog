@@ -1,39 +1,35 @@
 body {
-    background-color: #ffc2ec;
     text-align: center;
 }
 
-div {
-    margin-top: 15px;
+#chatbot {
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
 }
 
-.image-section {
-    display: flex;
-    justify-content: center;
+#apps {
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
 }
 
-.section-style {
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: white;
+#games {
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
 }
 
-#n {
-    height: 550px;
-    width: 550px;
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
-#a {
-    height: 550px;
-    width: 550px;
+img {
+    transition: transform .2s;
+
 }
 
-#t {
-    height: 550px;
-    width: 550px;
-}
-
-#u {
-    height: 550px;
-    width: 550px;
+img:hover {
+    transform: scale(0.9);
 }
