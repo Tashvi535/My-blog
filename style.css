@@ -2,29 +2,6 @@ body {
     text-align: center;
     margin: 0;
     padding-top: 800px;
-
-}
-
-#home {
-    position: absolute;
-    height: 800px;
-    color: #FFFFFF;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 0.83;
-    background-color: #bbeef0;
-    display: table;
-    height: 100%;
-    width: 100%;
-    z-index: 9;
-}
-
-.profile {
-    height: 170px;
-    width: 130px;
-    border-radius: 50%;
 }
 
 .menu {
@@ -33,45 +10,70 @@ body {
     right: 30px;
     z-index: 10;
     position: fixed;
+    width: 100%;
+}
+
+.profile {
+    height: 170px;
+    width: 130px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#title {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background-color: #98e7ed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+#tim {
+    margin-top: 200px;
 }
 
 .links {
     font-style: italic;
-    color: aliceblue;
+    color: pink;
     padding: 40px;
-    float: left;
+    display: inline;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: pointer;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+
+p {
+    text-align: center;
+
 }
 
 .links:hover {
-    background-color: blueviolet;
+    background-color: pink;
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-a {
-    font-family: sans-serif;
+#picture {
+    height: 500px;
 }
 
-h2 {
-    line-height: 1.2;
-    font-family: sans-serif;
-    margin-bottom: 40px;
-    font-weight: 300;
-}
-
-h1 {
-    font-family: sans-serif;
-    margin-bottom: 40px;
-    font-weight: 300;
-}
-
-#ic {
-    margin-top: 150px;
+#pic2 {
+    height: 500px;
 }
